@@ -27,6 +27,7 @@
         <aop.version>1.0</aop.version>
         <javassist.version>3.22.0-CR1</javassist.version>
         <cglib.version>3.2.4</cglib.version>
+        <aspectj.version>1.8.10</aspectj.version>
     </properties>
 
     <dependencies>
@@ -77,6 +78,13 @@
             <artifactId>cglib</artifactId>
             <version>${cglib.version}</version>
         </dependency>
+        <!--aspectj-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
